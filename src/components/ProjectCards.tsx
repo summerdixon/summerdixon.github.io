@@ -2,7 +2,7 @@ import { Box, Fab, Typography } from '@mui/material';
 
 const base = import.meta.env.BASE_URL;
 
-const projectImages = Array.from({ length: 8 }, (_, i) => `${base}projects/project-${i + 1}.svg`);
+const projectImages = Array.from({ length: 9 }, (_, i) => `${base}projects/project-${i + 1}.svg`);
 
 const projectURLs = [
   'https://colab.research.google.com/drive/1H4c7FuBGOAjnA9aU-f9UkUi_19b8ve6R?usp=sharing',
@@ -12,7 +12,8 @@ const projectURLs = [
   'https://github.com/summerdixon/digital-preservation-sites',
   'https://musicevolution.humspace.ucla.edu/',
   'https://github.com/sophiacoulsell/mm_schematics',
-  'https://github.com/summerdixon/fpga-bop-it'
+  'https://github.com/summerdixon/fpga-bop-it',
+  'https://aaoo.vercel.app'
 ];
 
 const projects = projectImages.map((src, i) => ({ src, url: projectURLs[i] || "" }));
