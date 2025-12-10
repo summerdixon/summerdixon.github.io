@@ -1,9 +1,10 @@
 import { Box, Chip, Divider, Typography } from '@mui/material';
 
-const programmingLanguages = [ "Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Rust", "Verilog"];
-const frameworksLibraries = ["PyTorch", "React", "Node.js", "Flask", "Vite", "Three.js", "GraphQL", "Diesel"];
-const systemsDatabasesDevOps = ["Azure", "Docker", "Git", "GitHub", "Linux/Unix", "PostgreSQL", "MongoDB", "RESTful APIs"];
-const hardwareEmbeddedSystems = ["Arduino", "STM32", "KiCad", "Soldering", "FPGAs"];
+const programmingLanguages = ["Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Rust", "Verilog", "SQL"];
+const aiMl = ["PyTorch", "Hugging Face", "Pandas", "NumPy", "Stable Diffusion", "RAG"];
+const frameworksLibraries = ["React", "Node.js", "FastAPI", "Flask", "Vite", "Three.js", "MUI", "GraphQL", "Jest"];
+const systemsDatabasesDevOps = ["Docker", "Azure", "Git/GitHub", "Linux/Unix", "PostgreSQL", "MongoDB", "Supabase", "REST APIs", "Grafana"];
+const hardwareEmbeddedSystems = ["Xilinx Vivado", "Arduino", "STM32", "KiCad", "Soldering", "FPGAs"];
 const toolsMethodologies = ["Figma", "Adobe", "Tableau", "Jira", "Agile/Scrum"];
 
 export default function Skills() {
@@ -13,6 +14,13 @@ export default function Skills() {
             <Typography className="headingSecondary">Programming Languages</Typography>
             <Box className="chipGroup">
                 {programmingLanguages.map((item) => (
+                    <Chip label={item} className="chip"/>
+                ))}
+            </Box>
+            <Divider/>
+            <Typography className="headingSecondary">AI/ML</Typography>
+            <Box className="chipGroup">
+                {aiMl.map((item) => (
                     <Chip label={item} className="chip"/>
                 ))}
             </Box>

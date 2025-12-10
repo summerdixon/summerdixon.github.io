@@ -128,7 +128,7 @@ footer .appBarContainer { width: 100%; }
 .centeredImage {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
     padding-left: var(--space-md);
 }
 
