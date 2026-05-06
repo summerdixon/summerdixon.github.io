@@ -1,7 +1,7 @@
 import { Box, Chip, Divider, Typography } from '@mui/material';
 
 const programmingLanguages = ["Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Rust", "Verilog", "SQL"];
-const aiMl = ["PyTorch", "Hugging Face", "Pandas", "NumPy", "Stable Diffusion", "RAG"];
+const aiMl = ["PyTorch", "Tensorflow", "Hugging Face", "Pandas", "NumPy", "Stable Diffusion", "RAG"];
 const frameworksLibraries = ["React", "Node.js", "FastAPI", "Flask", "Vite", "Three.js", "MUI", "GraphQL", "Jest"];
 const systemsDatabasesDevOps = ["Docker", "Azure", "Git/GitHub", "Linux/Unix", "PostgreSQL", "MongoDB", "Supabase", "REST APIs", "Grafana"];
 const hardwareEmbeddedSystems = ["Xilinx Vivado", "Arduino", "STM32", "KiCad", "Soldering", "FPGAs"];

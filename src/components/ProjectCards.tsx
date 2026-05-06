@@ -13,7 +13,10 @@ const projectURLs = [
   'https://musicevolution.humspace.ucla.edu/',
   'https://github.com/sophiacoulsell/mm_schematics',
   'https://github.com/summerdixon/fpga-bop-it',
-  'https://aaoo.vercel.app'
+  'https://aaoo.vercel.app',
+  'https://github.com/summerdixon/electromyography-keystrokes',
+  'https://github.com/summerdixon/otters-simulation',
+  'https://devpost.com/software/magbite?_gl=1*1tbn8tm*_gcl_au*NzIzNjY4Nzk5LjE3NzcxOTE3OTE.*_ga*NzgyNTExNTM2LjE3NzcxOTE3OTE.*_ga_0YHJK3Y10M*czE3NzgwMzgyNzIkbzEzJGcxJHQxNzc4MDM4MzEyJGoyMCRsMCRoMA..'
 ];
 
 const projects = projectImages.map((src, i) => ({ src, url: projectURLs[i] || "" }));
